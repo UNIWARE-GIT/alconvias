@@ -47,7 +47,7 @@
                     </div>
                     <div class="card-body">
                         <h2 class="text-center">Representante Legal</h2>
-                        <h3 class="text-center">Co-propietario</h3>
+                        <h3 class="text-center">Propietario</h3>
                         <hr/>
                         <ul class="fs-4">
                             <li>

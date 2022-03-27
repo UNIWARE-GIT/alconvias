@@ -31,7 +31,7 @@
             <!-- Section: Social media -->
             <section class="mb-4 d-flex items-center justify-content-center">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100079499606660" role="button">
+                <a class="btn btn-outline-light btn-floating m-1" target="__blank" href="https://www.facebook.com/profile.php?id=100079499606660" role="button">
                     <i class="fab fa-facebook-f"></i>
                 </a>
 
@@ -60,7 +60,7 @@
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright: <a class="text-white" href="/">alconvias.com.bo</a>
+            © 2020 Copyright: <a class="text-white" href="/">alconvias.com.bo</a> <br> <a class="text-white far fa-envelope" href="mailto:alconvias.bolivia@gmail.com"></a>
         </div>
         <!-- Copyright -->
     </footer>
