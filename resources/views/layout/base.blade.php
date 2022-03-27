@@ -31,7 +31,7 @@
             <!-- Section: Social media -->
             <section class="mb-4 d-flex items-center justify-content-center">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://es-la.facebook.com/" role="button">
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100079499606660" role="button">
                     <i class="fab fa-facebook-f"></i>
                 </a>
 
