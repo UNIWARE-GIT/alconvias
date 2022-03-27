@@ -23,7 +23,7 @@
                         <a class="nav-link
                             @if (Request::url() == route('home')) active
                                 text-center
-                                bg-dark
+                                bg-wine
                                 text-light
                                 rounded
                                 border-top
@@ -37,7 +37,7 @@
                         <a class="nav-link
                         @if (Request::url() == route('services')) active
                             text-center
-                            bg-dark
+                            bg-wine
                             text-light
                             rounded
                             border-top
@@ -51,7 +51,7 @@
                         <a class="nav-link
                         @if (Request::url() == route('products')) active
                             text-center
-                            bg-dark
+                            bg-wine
                             text-light
                             rounded
                             border-top
@@ -63,9 +63,23 @@
                     </li>
                     <li class="nav-item p-3">
                         <a class="nav-link
+                        @if (Request::url() == route('jobs')) active
+                            text-center
+                            bg-wine
+                            text-light
+                            rounded
+                            border-top
+                            border-bottom
+                            border-dark @endif"
+                            href="{{ route('jobs') }}">
+                            <i class="fas fa-hard-hat text-warning"></i> Nuestas Obras
+                        </a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link
                         @if (Request::url() == route('contacts')) active
                             text-center
-                            bg-dark
+                            bg-wine
                             text-light
                             rounded
                             border-top

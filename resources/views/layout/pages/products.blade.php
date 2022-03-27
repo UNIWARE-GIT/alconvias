@@ -16,7 +16,7 @@
 @section('content')
     <div class="container p-4">
         <div class="card mb-4 zoom-it">
-            <div class="card-header bg-dark text-light">
+            <div class="card-header bg-wine text-light">
                 <h1 style="margin: auto;">
                     <i class="fas fa-circle fa-fw text-info"></i><b> Fabricación de Losetas:</b>
                 </h1>
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="card mb-4 zoom-it">
-            <div class="card-header bg-dark text-light">
+            <div class="card-header bg-wine text-light">
                 <h1 style="margin: auto;">
                     <i class="fas fa-circle fa-fw text-info"></i><b> Losetas Tipo "S":</b>
                 </h1>
@@ -46,12 +46,12 @@
             </div>
             <div class="card-footer d-flex align-items-center justify-content-center">
                 <div class="rounded-circle overflow-hidden shadow-lg" style="width: max-content;">
-                    <img src="{{ asset('img/loseta-s.jpg') }}" alt="">
+                    <img src="{{ asset('img/loseta-s.jpg') }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
         <div class="card zoom-it">
-            <div class="card-header bg-dark text-light">
+            <div class="card-header bg-wine text-light">
                 <h1 style="margin: auto;">
                     <i class="fas fa-circle fa-fw text-info"></i><b> Grupos de Losetas:</b>
                 </h1>

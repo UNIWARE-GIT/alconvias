@@ -27,6 +27,11 @@ Route::get('/products', function ()
     return view('layout.pages.products');
 })->name('products');
 
+Route::get('/jobs', function ()
+{
+    return view('layout.pages.jobs');
+})->name('jobs');
+
 Route::get('/contacts', function ()
 {
     return view('layout.pages.contact');

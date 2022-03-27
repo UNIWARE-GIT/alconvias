@@ -25,7 +25,7 @@
     @yield('scripts')
     <!-- FOOTER -->
     <!-- Footer -->
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-wine-footer    text-center text-white">
         <!-- Grid container -->
         <div class="p-4">
             <!-- Section: Social media -->
@@ -50,7 +50,7 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p class="text-gray-500 text-center">
+                <p class="text-light text-center">
                     <i>~Alconvias Creando el Ambiente que Sueñas, Nuestra Pasión es Construir Vías del Futuro.</i>
                 </p>
             </section>

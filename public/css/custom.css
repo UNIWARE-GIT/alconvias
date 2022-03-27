@@ -108,3 +108,13 @@ body
 {
     color: rgb(255, 255, 255);
 }
+
+.bg-wine
+{
+    background-color: #800f2f;
+}
+
+.bg-wine-footer
+{
+    background-color: #5c061e;
+}

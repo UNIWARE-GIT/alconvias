@@ -9,7 +9,6 @@
         p {
             text-align: justify;
         }
-
     </style>
 @stop
 
@@ -17,9 +16,31 @@
     <div class="container p-4">
         <div>
             <div class="card mb-4 shadow-lg zoom-it">
-                <div class="card-header bg-dark text-light">
+                <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
-                        <i class="fas fa-circle fa-fw text-info"></i><b> TRATAMIENTOS ASFALTICOS SUPERFICIALES
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Contrucciones:</h1>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            Edificios.
+                        </li>
+                        <li>
+                            Salones.
+                        </li>
+                        <li>
+                            Cholet.
+                        </li>
+                        <li>
+                            Etc.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-lg zoom-it">
+                <div class="card-header bg-wine text-light">
+                    <h1 style="margin: auto;">
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Tratamientos Asfálticos Superficiales:
                     </h1>
                 </div>
                 <div class="card-body">
@@ -37,7 +58,7 @@
                 </div>
             </div>
             <div class="card mb-4 shadow-lg zoom-it">
-                <div class="card-header bg-dark text-light">
+                <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
                         <i class="fas fa-circle fa-fw text-info"></i><b> Tipos de Tratamientos:
                     </h1>
@@ -238,10 +259,9 @@
                 </div>
             </div>
             <div class="card mb-4 shadow-lg zoom-it">
-                <div class="card-header bg-dark text-light">
+                <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
-                        <i class="fas fa-circle fa-fw text-info"></i><b> Funciones de los Tratamientos Asfalticos
-                            Superficiales:
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Funciones de los Tratamientos Asfálticos Superficiales:
                     </h1>
                 </div>
                 <div class="card-body">
@@ -301,8 +321,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card shadow-lg zoom-it">
-                <div class="card-header bg-dark text-light">
+            <div class="card mb-4 shadow-lg zoom-it">
+                <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
                         <i class="fas fa-circle fa-fw text-info"></i><b> Maquinaria:
                     </h1>
@@ -338,7 +358,8 @@
                                 <div class="tab-pane fade show active" id="c1" role="tabpanel" aria-labelledby="c1-list">
                                     <div class="card">
                                         <div class="card-header">
-                                            <img src="http://e-asfalto.com/ingles/hotackdistributor/tackhot2000.JPG" class="img-fluid rounded" alt=""/>
+                                            <img src="http://e-asfalto.com/ingles/hotackdistributor/tackhot2000.JPG"
+                                                class="img-fluid rounded" alt="" />
                                         </div>
                                         <div class="card-body">
                                             <p>
@@ -358,11 +379,15 @@
                                 <div class="tab-pane fade" id="c2" role="tabpanel" aria-labelledby="c2-list">
                                     <div class="card">
                                         <div class="card-header">
-                                            <img src="http://victoryepes.blogs.upv.es/files/2019/04/gravilladora-hidrostatica-rosco-11.jpg" class="img-fluid rounded" alt=""/>
+                                            <img src="http://victoryepes.blogs.upv.es/files/2019/04/gravilladora-hidrostatica-rosco-11.jpg"
+                                                class="img-fluid rounded" alt="" />
                                         </div>
                                         <div class="card-body">
                                             <p>
-                                                El equipo que le sigue en importancia al distribuidor de asfalto es la gravilladora. En este los distribuidores pueden variar desde un tipo sencillo unido al fondo de la caja del camión, hasta una unidad autopropulsada de gran rendimiento.
+                                                El equipo que le sigue en importancia al distribuidor de asfalto es la
+                                                gravilladora. En este los distribuidores pueden variar desde un tipo
+                                                sencillo unido al fondo de la caja del camión, hasta una unidad
+                                                autopropulsada de gran rendimiento.
                                             </p>
                                         </div>
                                     </div>
@@ -370,7 +395,8 @@
                                 <div class="tab-pane fade" id="c3" role="tabpanel" aria-labelledby="c3-list">
                                     <div class="card">
                                         <div class="card-header">
-                                            <img src="https://rdv-files.nyc3.cdn.digitaloceanspaces.com/pub/html/files_html/3/1/0/000723105.jpg" class="img-fluid rounded" style="margin: auto; width: 100%;" alt=""/>
+                                            <img src="https://rdv-files.nyc3.cdn.digitaloceanspaces.com/pub/html/files_html/3/1/0/000723105.jpg"
+                                                class="img-fluid rounded" style="margin: auto; width: 100%;" alt="" />
                                         </div>
                                         <div class="card-body">
                                             <p>
@@ -390,11 +416,13 @@
                                 <div class="tab-pane fade" id="c4" role="tabpanel" aria-labelledby="c4-list">
                                     <div class="card">
                                         <div class="card-header">
-                                            <img src="https://www.eivmaquinaria.com/uploads/5/1/5/8/51584447/s514058444989793121_p746_i1_w2560.jpeg" class="img-fluid rounded" alt=""/>
+                                            <img src="https://www.eivmaquinaria.com/uploads/5/1/5/8/51584447/s514058444989793121_p746_i1_w2560.jpeg"
+                                                class="img-fluid rounded" alt="" />
                                         </div>
                                         <div class="card-body">
                                             <p>
-                                                Sopladora mecánica o manual Es aquella maquina que se encarga de romper y luego limpiar los escombros.
+                                                Sopladora mecánica o manual Es aquella maquina que se encarga de romper y
+                                                luego limpiar los escombros.
                                             </p>
                                         </div>
                                     </div>
@@ -402,11 +430,13 @@
                                 <div class="tab-pane fade" id="c5" role="tabpanel" aria-labelledby="c5-list">
                                     <div class="card">
                                         <div class="card-header">
-                                            <img src="https://www.manualesdetodo.net/wp-content/uploads/2021/12/manual-compactador-neumatico-ps360c-1200x675.jpg" class="img-fluid rounded" alt=""/>
+                                            <img src="https://www.manualesdetodo.net/wp-content/uploads/2021/12/manual-compactador-neumatico-ps360c-1200x675.jpg"
+                                                class="img-fluid rounded" alt="" />
                                         </div>
                                         <div class="card-body">
                                             <p>
-                                                Para el acabado final, con presión de inflado en las llantas superior a 7 Kg/cm2.
+                                                Para el acabado final, con presión de inflado en las llantas superior a 7
+                                                Kg/cm2.
                                             </p>
                                         </div>
                                     </div>
@@ -414,6 +444,43 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-lg zoom-it">
+                <div class="card-header bg-wine text-light">
+                    <h1 style="margin: auto;">
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Obras de Arte y Drenaje de Carreteras:
+                    </h1>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Las obras de drenaje son elementos estructurales que eliminan la inaccesibilidad de un camino,
+                        provocada por el agua o la humedad.
+                    </p>
+                    <h3>Los objetivos primordiales de las obras de drenaje son:</h3>
+                    <ol>
+                        <li>
+                            Dar salida al agua que se llegue a acumular en el camino.
+                        </li>
+
+                        <li>
+                            Reducir o eliminar la cantidad de agua que se dirija hacia el camino.
+                        </li>
+
+                        <li>
+                            Evitar que el agua provoque daños estructurales.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-lg zoom-it">
+                <div class="card-header bg-wine text-light">
+                    <h1 style="margin: auto;">
+                        <i class="fas fa-circle fa-fw text-info"></i><b> ¿No está lo que necesitas?
+                    </h1>
+                </div>
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <a href="{{route('contacts')}}" class="btn btn-outline-success">Contáctanos</a>
                 </div>
             </div>
         </div>
