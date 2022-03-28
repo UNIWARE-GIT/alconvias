@@ -32,6 +32,11 @@ Route::get('/jobs', function ()
     return view('layout.pages.jobs');
 })->name('jobs');
 
+Route::get('/galery', function ()
+{
+    return view('layout.pages.galery');
+})->name('galery');
+
 Route::get('/contacts', function ()
 {
     return view('layout.pages.contact');

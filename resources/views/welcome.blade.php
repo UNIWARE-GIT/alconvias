@@ -3,7 +3,7 @@
 @section('styles')
     <style>
         /* GLOBAL STYLES
-                                        -------------------------------------------------- */
+                                                -------------------------------------------------- */
         /* Padding below the footer and lighter body text */
 
         body {
@@ -13,7 +13,7 @@
 
 
         /* CUSTOMIZE THE CAROUSEL
-                                        -------------------------------------------------- */
+                                                -------------------------------------------------- */
 
         /* Carousel base class */
         .carousel {
@@ -41,7 +41,7 @@
 
 
         /* MARKETING CONTENT
-                                        -------------------------------------------------- */
+                                                -------------------------------------------------- */
 
         /* Center align the text within the three columns below the carousel */
         .marketing .col-lg-4 {
@@ -60,7 +60,7 @@
 
 
         /* Featurettes
-                                        ------------------------- */
+                                                ------------------------- */
 
         .featurette-divider {
             margin: 5rem 0;
@@ -75,7 +75,7 @@
 
 
         /* RESPONSIVE CSS
-                                        -------------------------------------------------- */
+                                                -------------------------------------------------- */
 
         @media (min-width: 40em) {
 
@@ -126,10 +126,13 @@
             </div>
             <div class="carousel-inner bg-light">
                 <div class="carousel-item active">
-                    <img class="bd-placeholder-img d-none d-sm-block img-fluid" src="{{ asset('img/banner.png') }}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                    <img class="bd-placeholder-img d-none d-sm-block" src="{{ asset('img/alconvias-logo-wfl.jpeg') }}"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="margin-top: 2rem;" />
                     <div style="margin-top: 7rem;">
                         <div class="ratio ratio-21x9">
-                            <img class="bd-placeholder-img d-block d-sm-none img-fluid" src="{{ asset('img/banner.png') }}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                            <img class="bd-placeholder-img d-block d-sm-none img-fluid"
+                                src="{{ asset('img/alconvias-logo.jpeg') }}" aria-hidden="true"
+                                preserveAspectRatio="xMidYMid slice" focusable="false" />
                         </div>
                     </div>
                 </div>
@@ -216,7 +219,7 @@
 
 
         <!-- Marketing messaging and featurettes
-                                                ================================================== -->
+                                                        ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
         <div class="container-fluid border-top border-2 border-primary">

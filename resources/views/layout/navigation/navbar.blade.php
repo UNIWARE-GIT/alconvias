@@ -77,6 +77,20 @@
                     </li>
                     <li class="nav-item p-3">
                         <a class="nav-link
+                        @if (Request::url() == route('galery')) active
+                            text-center
+                            bg-wine
+                            text-light
+                            rounded
+                            border-top
+                            border-bottom
+                            border-dark @endif"
+                            href="{{ route('galery') }}">
+                            <i class="far fa-images text-info"></i> Galeria
+                        </a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link
                         @if (Request::url() == route('contacts')) active
                             text-center
                             bg-wine
