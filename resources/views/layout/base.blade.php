@@ -25,7 +25,7 @@
     @yield('scripts')
     <!-- FOOTER -->
     <!-- Footer -->
-    <footer class="bg-wine-footer    text-center text-white">
+    <footer class="bg-wine-footer   text-center text-white">
         <!-- Grid container -->
         <div class="p-4">
             <!-- Section: Social media -->

@@ -3,7 +3,7 @@
 @section('styles')
     <style>
         /* GLOBAL STYLES
-                                    -------------------------------------------------- */
+                                        -------------------------------------------------- */
         /* Padding below the footer and lighter body text */
 
         body {
@@ -13,7 +13,7 @@
 
 
         /* CUSTOMIZE THE CAROUSEL
-                                    -------------------------------------------------- */
+                                        -------------------------------------------------- */
 
         /* Carousel base class */
         .carousel {
@@ -41,7 +41,7 @@
 
 
         /* MARKETING CONTENT
-                                    -------------------------------------------------- */
+                                        -------------------------------------------------- */
 
         /* Center align the text within the three columns below the carousel */
         .marketing .col-lg-4 {
@@ -60,7 +60,7 @@
 
 
         /* Featurettes
-                                    ------------------------- */
+                                        ------------------------- */
 
         .featurette-divider {
             margin: 5rem 0;
@@ -75,7 +75,7 @@
 
 
         /* RESPONSIVE CSS
-                                    -------------------------------------------------- */
+                                        -------------------------------------------------- */
 
         @media (min-width: 40em) {
 
@@ -117,14 +117,23 @@
 @section('content')
     <main>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+            <div class="carousel-indicators bg-wine-footer">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
                 <div class="carousel-item active">
+                    <img class="bd-placeholder-img d-none d-sm-block img-fluid" src="{{ asset('img/banner.png') }}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                    <div style="margin-top: 7rem;">
+                        <div class="ratio ratio-21x9">
+                            <img class="bd-placeholder-img d-block d-sm-none img-fluid" src="{{ asset('img/banner.png') }}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
                     <img class="bd-placeholder-img d-none d-sm-block"
                         src="{{ asset('img/recursos/equipo-de-trabajores/equipo-personal (1).jpeg') }}" width="100%"
                         height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
@@ -196,18 +205,18 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
                 <span class="visually-hidden">-</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
                 <span class="visually-hidden"></span>
             </button>
         </div>
 
 
         <!-- Marketing messaging and featurettes
-                                            ================================================== -->
+                                                ================================================== -->
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
         <div class="container-fluid border-top border-2 border-primary">
@@ -285,7 +294,8 @@
                         </li>
                         <li class="list-group-item p-4">
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <a class="btn btn-outline-primary" type="button" href="{{route('products')}}">Ver Todo</a>
+                                <a class="btn btn-outline-primary" type="button" href="{{ route('products') }}">Ver
+                                    Todo</a>
                             </div>
                         </li>
                     </ul>
