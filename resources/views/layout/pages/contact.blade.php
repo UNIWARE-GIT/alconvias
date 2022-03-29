@@ -34,7 +34,7 @@
                                 Ing. Gaston Alanoca Cayo.
                             </li>
                             <li>
-                                Nro. de Celular. 77702937
+                                Nro. de Celular. 69951459
                             </li>
                         </ul>
                     </div>
@@ -54,7 +54,7 @@
                                 Lic. Yeshenia A. Durán Condori
                             </li>
                             <li>
-                                Nro. de Celular. 77704397
+                                Nro. de Celular. 76597147
                             </li>
                         </ul>
                     </div>

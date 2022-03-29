@@ -88,23 +88,27 @@
                         </p>
                     </div>
                     <div class="list-group mb-4" id="list-tab" role="tablist">
-                        <a class="list-group-item list-group-item-action active" id="gallery1-list" data-bs-toggle="list"
-                            href="#gallery1" role="tab" aria-controls="gallery1">Enlosetados</a>
+                        <a class="list-group-item list-group-item-action active" id="gallery8-list" data-bs-toggle="list"
+                            href="#gallery8" role="tab" aria-controls="gallery8">Asfaltado de Toda una Avenida.</a>
+                        <a class="list-group-item list-group-item-action" id="gallery9-list" data-bs-toggle="list"
+                            href="#gallery9" role="tab" aria-controls="gallery9">Adoquinado de Toda una Avenida.</a>
+                        <a class="list-group-item list-group-item-action" id="gallery1-list" data-bs-toggle="list"
+                            href="#gallery1" role="tab" aria-controls="gallery1">Enlosetados.</a>
                         <a class="list-group-item list-group-item-action" id="gallery2-list" data-bs-toggle="list"
-                            href="#gallery2" role="tab" aria-controls="gallery2">Adoquines</a>
+                            href="#gallery2" role="tab" aria-controls="gallery2">Adoquines.</a>
                         <a class="list-group-item list-group-item-action" id="gallery3-list" data-bs-toggle="list"
-                            href="#gallery3" role="tab" aria-controls="gallery3">Asfaltos (parte 1)</a>
+                            href="#gallery3" role="tab" aria-controls="gallery3">Asfaltos (parte 1).</a>
                         <a class="list-group-item list-group-item-action" id="gallery4-list" data-bs-toggle="list"
-                            href="#gallery4" role="tab" aria-controls="gallery4">Asfaltos (parte 2)</a>
+                            href="#gallery4" role="tab" aria-controls="gallery4">Asfaltos (parte 2).</a>
                         <a class="list-group-item list-group-item-action" id="gallery5-list" data-bs-toggle="list"
-                            href="#gallery5" role="tab" aria-controls="gallery5">Maquinaria en Caminos</a>
+                            href="#gallery5" role="tab" aria-controls="gallery5">Maquinaria en Caminos.</a>
                         <a class="list-group-item list-group-item-action" id="gallery6-list" data-bs-toggle="list"
-                            href="#gallery6" role="tab" aria-controls="gallery6">Preparación de Caminos</a>
+                            href="#gallery6" role="tab" aria-controls="gallery6">Preparación de Caminos.</a>
                         <a class="list-group-item list-group-item-action" id="gallery7-list" data-bs-toggle="list"
-                            href="#gallery7" role="tab" aria-controls="gallery7">Trabajos en Provincia</a>
+                            href="#gallery7" role="tab" aria-controls="gallery7">Trabajos en Provincia.</a>
                     </div>
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="gallery1" role="tabpanel"
+                        <div class="tab-pane fade" id="gallery1" role="tabpanel"
                             aria-labelledby="gallery1-list">
                             <div class="row photos">
                                 @foreach (File::glob(public_path('img/recursos/adoquinados-carreteras') . '/*') as $img)
@@ -174,6 +178,28 @@
                         <div class="tab-pane fade" id="gallery7" role="tabpanel" aria-labelledby="gallery7-list">
                             <div class="row photos">
                                 @foreach (File::glob(public_path('img/recursos/provincia') . '/*') as $img)
+                                    <div class="col-sm-6 col-md-4 col-lg-3 item">
+                                        <a href="{{ str_replace(public_path(), '', $img) }}" data-lightbox="photos">
+                                            <img class="img-fluid" src="{{ str_replace(public_path(), '', $img) }}">
+                                        </a>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="gallery8" role="tabpanel" aria-labelledby="gallery8-list">
+                            <div class="row photos">
+                                @foreach (File::glob(public_path('img/recursos/asfaltado-completo') . '/*') as $img)
+                                    <div class="col-sm-6 col-md-4 col-lg-3 item">
+                                        <a href="{{ str_replace(public_path(), '', $img) }}" data-lightbox="photos">
+                                            <img class="img-fluid" src="{{ str_replace(public_path(), '', $img) }}">
+                                        </a>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="gallery9" role="tabpanel" aria-labelledby="gallery9-list">
+                            <div class="row photos">
+                                @foreach (File::glob(public_path('img/recursos/adoquinado-completo') . '/*') as $img)
                                     <div class="col-sm-6 col-md-4 col-lg-3 item">
                                         <a href="{{ str_replace(public_path(), '', $img) }}" data-lightbox="photos">
                                             <img class="img-fluid" src="{{ str_replace(public_path(), '', $img) }}">
