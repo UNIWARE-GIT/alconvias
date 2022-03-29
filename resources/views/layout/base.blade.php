@@ -37,12 +37,12 @@
 
                 <!-- WhatsApp -->
                 <a class="btn btn-outline-light btn-floating m-1" role="button">
-                    <i class="fas fa-phone-volume"></i> 77704397 (Lic. Yeshenia)
+                    <i class="fas fa-phone-volume"></i> 76597147 (Lic. Durán)
                 </a>
 
                 <!-- WhatsApp -->
                 <a class="btn btn-outline-light btn-floating m-1" role="button">
-                    <i class="fas fa-phone-volume"></i> 77702937 (Ing. Gaston)
+                    <i class="fas fa-phone-volume"></i> 69951459 (Ing. Alanoca)
                 </a>
 
             </section>
