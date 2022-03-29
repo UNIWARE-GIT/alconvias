@@ -3,7 +3,7 @@
 @section('styles')
     <style>
         /* GLOBAL STYLES
-                                                -------------------------------------------------- */
+                                                        -------------------------------------------------- */
         /* Padding below the footer and lighter body text */
 
         body {
@@ -13,7 +13,7 @@
 
 
         /* CUSTOMIZE THE CAROUSEL
-                                                -------------------------------------------------- */
+                                                        -------------------------------------------------- */
 
         /* Carousel base class */
         .carousel {
@@ -41,7 +41,7 @@
 
 
         /* MARKETING CONTENT
-                                                -------------------------------------------------- */
+                                                        -------------------------------------------------- */
 
         /* Center align the text within the three columns below the carousel */
         .marketing .col-lg-4 {
@@ -60,7 +60,7 @@
 
 
         /* Featurettes
-                                                ------------------------- */
+                                                        ------------------------- */
 
         .featurette-divider {
             margin: 5rem 0;
@@ -75,7 +75,7 @@
 
 
         /* RESPONSIVE CSS
-                                                -------------------------------------------------- */
+                                                        -------------------------------------------------- */
 
         @media (min-width: 40em) {
 
@@ -127,7 +127,8 @@
             <div class="carousel-inner bg-light">
                 <div class="carousel-item active">
                     <img class="bd-placeholder-img d-none d-sm-block" src="{{ asset('img/alconvias-logo-new.jpeg') }}"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="margin-top: 2rem;" />
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        style="margin-top: 2rem;" />
                     <div style="margin-top: 7rem;">
                         <div class="ratio ratio-21x9">
                             <img class="bd-placeholder-img d-block d-sm-none img-fluid"
@@ -217,10 +218,7 @@
             </button>
         </div>
 
-
-        <!-- Marketing messaging and featurettes
-                                                        ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <!-- MISION VISION -->
 
         <div class="container-fluid border-top border-2 border-primary">
             <div class="row bg-white rounded">
@@ -237,6 +235,8 @@
                 </div><!-- /.col-lg-4 -->
             </div>
         </div>
+
+        <!-- PRODUCTOS, SERVICIOS, ETC. -->
 
         <div class="container marketing">
 
@@ -307,6 +307,32 @@
                     <div class="p-4 bg-white rounded-circle shadow-lg">
                         <img class="img-fluid" src="http://www.preconalbolivia.com/1/images/grupos-de-losetas.gif" />
                     </div>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+
+            <div class="row featurette g-2 g-sm-4">
+                <div>
+                    <h1 class="text-center fs-1 text-dark mb-4"><u>Nuestros Servicios</u></h1>
+                </div>
+                <div class="col-md-12">
+                    <ul class="list-group text-center list-group-flush rounded shadow border-end border-start border-2 border-primary">
+                        <li class="list-group-item p-2">
+                            <span class="fs-3">Contrucciones.</span>
+                        </li>
+                        <li class="list-group-item p-2">
+                            <span class="fs-3">Estudio y Analisis de Suelos.</span>
+                        </li>
+                        <li class="list-group-item p-2">
+                            <span class="fs-3">Maquinaria</sp>
+                        </li>
+                        <li class="list-group-item p-4">
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a class="btn btn-outline-primary" type="button" href="{{ route('services') }}">Ver
+                                    Todo</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <hr class="featurette-divider">
