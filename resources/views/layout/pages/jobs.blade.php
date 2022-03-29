@@ -20,9 +20,9 @@
 @section('content')
     <div class="container p-4">
         <div class="card mb-4">
-            <div class="card-header d-flex align-items-center justify-content-center">
+            <div class="card-header d-flex align-items-center justify-content-center overflow-hidden">
                 <img src="https://pbs.twimg.com/profile_images/1422240121815015428/DLIEiBoU_400x400.jpg"
-                    class="img-fluid" alt="">
+                    class="img-fluid rounded shadow" alt="">
             </div>
             <div class="card-body">
                 <div class="row">
@@ -117,13 +117,14 @@
             </div>
         </div>
         <div class="card mb-4">
-            <div class="card-header d-flex align-items-center justify-content-center">
-                <img src="https://www.lapaz.bo/wp-content/uploads/2021/10/logo_gamlp_2021.jpg" class="img-fluid"
+            <div class="card-header d-flex align-items-center justify-content-center overflow-hidden">
+                <img src="https://www.lapaz.bo/wp-content/uploads/2021/10/logo_gamlp_2021.jpg" class="img-fluid rounded shadow"
                     alt="">
             </div>
             <div class="card-body">
                 <div>
-                    <ul class="fs-3">
+                    <h1>Obras Viales:</h1>
+                    <ul>
                         <li>
                             <i class="fas fa-hammer text-success "></i> <span>Plaza Peñas</span>
                         </li>
@@ -141,18 +142,50 @@
             </div>
         </div>
         <div class="card mb-4">
-            <div class="card-header d-flex align-items-center justify-content-center">
+            <div class="card-header d-flex align-items-center justify-content-center overflow-hidden">
                 <img src="https://www.lostiempos.com/sites/default/files/media_imagen/2021/10/13/okkkkgamc.jpg"
-                    class="img-fluid" alt="">
+                    class="img-fluid rounded shadow" alt="">
             </div>
             <div class="card-body">
                 <div>
-                    <ul class="fs-3">
+                    <h1>Obras Publicas:</h1>
+                    <ul>
                         <li>
                             <i class="fas fa-hammer text-success "></i> Hospital del niño en Cochabamba
                         </li>
                         <li>
                             <i class="fas fa-hammer text-success "></i> Estación de servicios Cochabamba
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-center overflow-hidden">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA3z3uvdBBQkCJCUsivBu_db_59DLvHzKZLQ&usqp=CAU"
+                    class="img-fluid rounded shadow" alt="">
+            </div>
+            <div class="card-body">
+                <div>
+                    <h1>Obras Viales y Publicas:</h1>
+                    <ul>
+                        <li>
+                            <i class="fas fa-hammer text-success "></i> Empedrado de Vias Urbanas de la Ciudad de Tarija.
+                        </li>
+                        <li>
+                            <i class="fas fa-hammer text-success "></i> Infraestructura Vial.
+                        </li>
+                        <li>
+                            <i class="fas fa-hammer text-success "></i> Construccion de Gaviones Quebrada - San Francisco Barrio Las Palmas de la Ciudad de Tarija.
+                        </li>
+                        <li>
+                            <i class="fas fa-hammer text-success "></i> Contrucción y Ampliación U.E San Jorge.
+                        </li>
+                        <li>
+                            <i class="fas fa-hammer text-success "></i> Apliación Paquete Estructural para Asfaltado Camino Sella Cercado.
+                        </li>
+                        <li>
+                            <i class="fas fa-hammer text-success "></i> Contrucción Puente Vehicular sobre la Quebrada el Monte que Vincula los Barrios Lourdes y El Trigal, Ciudad de Tarija.
                         </li>
                     </ul>
                 </div>

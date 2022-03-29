@@ -126,12 +126,12 @@
             </div>
             <div class="carousel-inner bg-light">
                 <div class="carousel-item active">
-                    <img class="bd-placeholder-img d-none d-sm-block" src="{{ asset('img/alconvias-logo-wfl.jpeg') }}"
+                    <img class="bd-placeholder-img d-none d-sm-block" src="{{ asset('img/alconvias-logo-new.jpeg') }}"
                         aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="margin-top: 2rem;" />
                     <div style="margin-top: 7rem;">
                         <div class="ratio ratio-21x9">
                             <img class="bd-placeholder-img d-block d-sm-none img-fluid"
-                                src="{{ asset('img/alconvias-logo.jpeg') }}" aria-hidden="true"
+                                src="{{ asset('img/alconvias-logo-new-sm.jpeg') }}" aria-hidden="true"
                                 preserveAspectRatio="xMidYMid slice" focusable="false" />
                         </div>
                     </div>

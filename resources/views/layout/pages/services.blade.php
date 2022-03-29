@@ -9,6 +9,7 @@
         p {
             text-align: justify;
         }
+
     </style>
 @stop
 
@@ -18,7 +19,8 @@
             <div class="card mb-4 shadow-lg zoom-it">
                 <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
-                        <i class="fas fa-circle fa-fw text-info"></i><b> Contrucciones:</h1>
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Contrucciones:
+                    </h1>
                 </div>
                 <div class="card-body">
                     <ul>
@@ -261,7 +263,8 @@
             <div class="card mb-4 shadow-lg zoom-it">
                 <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
-                        <i class="fas fa-circle fa-fw text-info"></i><b> Funciones de los Tratamientos Asfálticos Superficiales:
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Funciones de los Tratamientos Asfálticos
+                            Superficiales:
                     </h1>
                 </div>
                 <div class="card-body">
@@ -476,11 +479,83 @@
             <div class="card mb-4 shadow-lg zoom-it">
                 <div class="card-header bg-wine text-light">
                     <h1 style="margin: auto;">
+                        <i class="fas fa-circle fa-fw text-info"></i><b> Laboratorios de Suelos:
+                    </h1>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <h3><i class="fas fa-search-location fa-fw"></i> - Estudio "In Situ":</h3>
+                        <p>
+                            Como su nombre lo indica, son los estudios que se realizan directamente sobre el terreno, donde
+                            se busca trabajar con muestras extraídas directamente del suelo, evitando la dificultad de hacer
+                            llegar una muestra inalterada a un laboratorio.
+                        </p>
+                        <ul>
+                            <li>
+                                SPT - Ensayo de penetración estándar (Standard Penetration Test)
+                            </li>
+                            <li>
+                                CPT - Ensayo de penetración estática (Cone Penetration Test)
+                            </li>
+                            <li>
+                                VST - Ensayo de Molinete (también conocido como Vane Teste)
+                            </li>
+                            <li>
+                                Ensayo presiométrico
+                            </li>
+                            <li>
+                                DMT - Dilatómetro plano Marchetti
+                            </li>
+                            <li>
+                                Ensayo de placa de carga
+                            </li>
+                            <li>
+                                Esclerómetro Schmidt
+                            </li>
+                            <li>
+                                PLT - Ensayo de carga puntual
+                            </li>
+                            <li>
+                                Ensayos de bombeo
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3><i class="fas fa-flask fa-fw"></i> - Ensayos en laboratorio </h3>
+                        <p>
+                            Son todos aquello ensayos que permiten estudiar las propiedades del suelo a través de muestras,
+                            lo más inalteradas posibles, provenientes del terreno objeto de análisis; y se realizan en
+                            ambientes controlados, dentro de un laboratorio.
+                        </p>
+                        <ul>
+                            <li>
+                                De identificación y estado ( tamizado, sedimentación, humedad, densidad, permeabilidad,
+                                etc.)
+                            </li>
+                            <li>
+                                De resistencia (compresión, corte y ensayo triaxial)
+                            </li>
+                            <li>
+                                De deformabilidad (edométrico)
+                            </li>
+                            <li>
+                                De compactación y reutilización (ensayo Próctor y CBR)
+                            </li>
+                            <li>
+                                En rocas (durabilidad, resistencia, densidad, absorción, etc.)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-lg zoom-it">
+                <div class="card-header bg-wine text-light">
+                    <h1 style="margin: auto;">
                         <i class="fas fa-circle fa-fw text-info"></i><b> ¿No está lo que necesitas?
                     </h1>
                 </div>
                 <div class="card-body d-flex align-items-center justify-content-center">
-                    <a href="{{route('contacts')}}" class="btn btn-outline-success">Contáctanos</a>
+                    <a href="{{ route('contacts') }}" class="btn btn-outline-success">Contáctanos</a>
                 </div>
             </div>
         </div>
