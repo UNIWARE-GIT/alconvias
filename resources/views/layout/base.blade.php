@@ -31,18 +31,22 @@
             <!-- Section: Social media -->
             <section class="mb-4 d-flex items-center justify-content-center">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" target="__blank" href="https://www.facebook.com/profile.php?id=100079499606660" role="button">
-                    <i class="fab fa-facebook-f"></i>
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    target="__blank"
+                    href="https://www.facebook.com/profile.php?id=100079499606660"
+                    role="button">
+                        <i class="fab fa-facebook-f"></i>
                 </a>
 
                 <!-- WhatsApp -->
-                <a class="btn btn-outline-light btn-floating m-1" role="button">
-                    <i class="fas fa-phone-volume"></i> 76597147 (Lic. Durán)
+                <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://twitter.com/AlconviasBo">
+                    <i class="fab fa-twitter"></i>
                 </a>
 
                 <!-- WhatsApp -->
-                <a class="btn btn-outline-light btn-floating m-1" role="button">
-                    <i class="fas fa-phone-volume"></i> 69951459 (Ing. Alanoca)
+                <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://www.instagram.com/alconviasbo/">
+                    <i class="fab fa-instagram"></i>
                 </a>
 
             </section>
