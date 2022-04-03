@@ -31,7 +31,7 @@
                         <hr/>
                         <ul class="fs-4">
                             <li>
-                                Ing. Gaston Alanoca Cayo.
+                                Ing. Alanoca
                             </li>
                             <li>
                                 Nro. de Celular. 69951459
@@ -51,7 +51,7 @@
                         <hr/>
                         <ul class="fs-4">
                             <li>
-                                Lic. Yeshenia A. Durán Condori
+                                Lic. Durán
                             </li>
                             <li>
                                 Nro. de Celular. 76597147
