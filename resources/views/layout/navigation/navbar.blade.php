@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div>
             <a class="navbar-brand" href="/">
-                <img src="{{ secure_asset('img/alconvias-logo-new.jpeg') }}" height="45" width="65" alt="">
+                <img src="/img/alconvias-logo-new.jpeg" height="45" width="65" alt="">
                 <span>{{ config('app.name') }}</span>
             </a>
         </div>
